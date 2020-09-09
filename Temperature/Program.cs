@@ -6,7 +6,7 @@ namespace Temperature
     {
         static void Main(string[] args)
         {
-           var celsius = TempConverter.FahrenheitToCelsius(80); //output 26.7
+           var celsius = TempConverter.FahrenheitToCelsius(80); //output 26.6
             var fahrenheit = TempConverter.CelsiusToFahrenheit(38); // output 100.4
 
             Console.WriteLine("Results of Converting:");
